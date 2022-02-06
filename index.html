@@ -49,7 +49,7 @@ h2{
 
 <center>
 <h2>Skrypt JS</h2>
-<p>Skrypt JS drukuje liczby z przedziału a, b</p><br>
+<p>Skrypt JS drukuje liczby z przedziału a, b</p></br>
 Podaj a 
 <input type = "number" id = "a" value = 1>
 Podaj b
@@ -57,6 +57,50 @@ Podaj b
 <input type = "button" value = "Pokaż" onclick = "f1()";
 <br>
 <div id = "wynik">...</div>
+
+<h2>Schemat blokowy</h2>
+<img src="img/zdj.png">
+</br>
+<h2>Kod cpp</h2>
+</center
+<h4>
+#include <iostream></br>
+using namespace std;</br>
+int main()</br>
+{</br>
+    int a, b;</br>
+    cin >> a >> b;</br>
+    for(int i=a; i<=b; i++) cout << i << " ";</br>
+}</br>
+<center>
+</h4>
+
+
+
+
+
+
+
+
+<h2>Skrypt JS</h2>
+</center>
+< script-></br>
+	function f1()</br>
+	{</br>
+		var a = document.getElementById("a").value;</br>
+		var b = document.getElementById("b").value;</br>
+		var i;</br>
+		var s = "";</br>
+		</br>
+		for(i=a; i<=b; i++) s = s + i + " ";</br>
+		</br>
+		document.getElementById("wynik").innerHTML = s;</br>
+		</br>
+	}</br>
+</br>
+< /scrip- ></br>
+<center>
+
 </center>
 
 </body>
